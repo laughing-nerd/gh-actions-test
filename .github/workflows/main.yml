@@ -13,4 +13,4 @@ jobs:
     steps:
       - name: Clone Repo
         uses: actions/checkout@v4
-      - run: echo "Cloned ${{ github.repository }} successfully!!!
+      - run: echo "Cloned ${{ github.repository }} successfully!!!"
