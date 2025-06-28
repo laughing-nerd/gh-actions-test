@@ -4,11 +4,13 @@ jobs:
   TestJob1:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Hello World!"
+      - name: Run 1st Hello World
+        run: echo "Hello World!"
       - run: echo "Hello World2"
       - run: echo "Hello WOrld3"
   CheckoutRepo:
     runs-on: ubuntu-latest
     steps:
-      - run: actions/checkout@v4
+      - name: Clone Repo
+        uses: actions/checkout@v4
       - run: echo "Cloned ${{ github.repository }} successfully!!!
