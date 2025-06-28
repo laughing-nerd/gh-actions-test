@@ -4,5 +4,4 @@ jobs:
   New-Task:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "Running new task
-      
+      - run: echo "Running new task"
