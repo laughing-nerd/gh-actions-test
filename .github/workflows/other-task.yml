@@ -1,0 +1,8 @@
+name: Some Other Task
+on: [push]
+jobs:
+  New-Task:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Running new task
+      
